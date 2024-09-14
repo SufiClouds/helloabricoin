@@ -6,7 +6,7 @@ const About = () => {
         {/* Left Side - Image */}
         <div className="w-auto lg:w-1/3 md:w-1/2 mb-8 md:mb-0">
           <img 
-            src='/assets/aboutus.png' 
+            src='#' 
             alt="About Us" 
             className="rounded-full shadow-lg w-full h-auto"
           />
