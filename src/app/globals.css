@@ -13,10 +13,10 @@
     --foreground: #ededed;
   }
 }
-
+/* 
 body {
   cursor: url("/assets/cursor.svg"), auto;
-}
+} */
 
 @layer utilities {
   .text-balance {

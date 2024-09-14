@@ -43,14 +43,14 @@ const CalculateCoinPage = () => {
   };
 
   return (
-    <div className="min-h-screen flex justify-center items-center bg-gray-100 p-4 sm:p-8">
-      <div className="w-full max-w-6xl bg-white shadow-lg rounded-lg p-6 flex flex-col md:flex-row space-y-6 md:space-y-0 md:space-x-4">
+    <div className="min-h-screen bg-[#031B2D] justify-center gap-20 flex flex-col md:flex-row items-center p-8">
+      <div className="w-full max-w-7xl bg-[#055184] shadow-lg rounded-lg p-6 flex flex-col md:flex-row gap-8 md:gap-16">
         {/* Left Side - Heading and Paragraph */}
         <div className="w-full md:w-1/2">
-          <h1 className="text-2xl sm:text-3xl font-bold text-blue-500 mb-4">
+          <h1 className="text-2xl sm:text-3xl font-bold text-white mb-4">
             Calculate Value of Abri Coin
           </h1>
-          <p className="text-sm sm:text-base text-gray-700 leading-relaxed">
+          <p className="text-sm sm:text-base text-gray-300 leading-relaxed">
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry's standard dummy text
             ever since the 1500s, when an unknown printer took a galley of type
@@ -59,11 +59,11 @@ const CalculateCoinPage = () => {
         </div>
 
         {/* Right Side - Coin Inputs and Calculation */}
-        <div className="w-full md:w-1/2 bg-orange-100 p-4 sm:p-6 rounded-lg">
+        <div className="w-full md:w-1/2 bg-[#00B7D0] p-4 sm:p-6 rounded-lg">
           {/* Circle Image */}
           <div className="flex justify-center mb-4">
             <div className="w-12 h-12 sm:w-16 sm:h-16 bg-yellow-300 rounded-full flex justify-center items-center">
-              <span className="text-lg sm:text-xl font-bold">A</span>
+              <span className="text-lg sm:text-xl font-bold">Abri</span>
             </div>
           </div>
 
